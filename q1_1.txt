@@ -1,0 +1,26 @@
+A Robotica input data for a two degree of freedom planar robot
+--------------------------------------------------------------
+DOF = 2
+The DH parameters:
+joint1 = revolute
+a1 = l1
+alpha1 = 0
+d1 = 0
+theta1 = q1
+joint2 = revolute
+a2 = l2
+alpha2 = 0
+d2 = 0
+theta2 = q2
+
+The dynamics information:
+
+DYNAMICS
+dayamics data here:
+gravity vector = {0,g,0}
+mass1 = m1
+center of mass = {-l1+lc1,0,0}
+inertia matrix = {0,0,0,0,0,I1}
+mass2 = m2
+center of mass = {-l2+lc2,0,0}
+inertia matrix = {0,0,0,0,0,I2}
